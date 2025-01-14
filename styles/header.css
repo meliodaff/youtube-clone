@@ -1,0 +1,73 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-section{
+    display: flex;
+    width: 140px;
+    padding: 10px 13px;
+    align-items: center;
+
+}
+
+.hamburger-menu{
+    width: 25px;
+    margin-right: 20px;
+}
+
+.youtube-logo{
+    width: 100px;
+}
+
+.middle-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.search-bar{
+    padding: 11.5px 9px;
+    flex: 1;
+    max-width: 400px;
+}
+
+.search-button{
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    padding: 9px 20px;
+    width: 64px;
+    margin-left: -4px;
+    border: solid 1px gray;
+    background-color: rgb(247, 247, 247);
+}
+
+
+
+.voice-button{
+    height: 45px;
+    width: 45px;
+    border-radius: 25px;
+    border: none;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
+    margin-left: -5px;
+}
+
+
+
+
+.search-bar::placeholder{
+    font-family: Roboto;
+    font-size: 15px;
+}
+
+.right-section{
+    border: solid 1px;
+    height: 40px;
+    display: flex;
+}
