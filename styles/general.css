@@ -1,4 +1,9 @@
 body{
     margin: 0;
     padding-bottom: 3000px;
+    background-color: rgb(215, 215, 215);
+}
+
+div{
+    font-family: Roboto, Arial;
 }

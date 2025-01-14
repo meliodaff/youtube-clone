@@ -1,0 +1,28 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    top: 57px;
+    bottom: 0;
+    width: 80px;
+    padding-top: 5px;
+    background-color: white;
+}
+
+.sidebar-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.sidebar-icon{
+    width: 35px;
+    margin-bottom: 8px;
+
+}
+
+.sidebar-name{
+    font-size: 11px;
+
+}
