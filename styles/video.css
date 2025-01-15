@@ -1,13 +1,17 @@
 .video-grid{
     display: grid;
-    grid-template-columns: 325px 325px 325px 325px;
+    grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
     column-gap: 32px;
     row-gap: 33px;
+    
     /* display: flex;
     justify-content: space-between;
     flex: wrap; */
 }
 
+.video-preview{
+    position: relative;
+}
 
 .thumbnail{
     height: 195px;
@@ -16,6 +20,19 @@
 
 .video-info{
     display: flex;
+
+}
+
+
+.time-stamp{
+    position: absolute;
+    right: -18px;
+    bottom: 110px;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    padding: 3px 4px;
+    font-weight: 500;
 }
 
 .author-image{
