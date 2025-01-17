@@ -3,11 +3,73 @@
     grid-template-columns: 325px 325px 325px 325px;
     column-gap: 32px;
     row-gap: 33px;
-    
     /* display: flex;
     justify-content: space-between;
     flex: wrap; */
 }
+
+
+
+@media(min-width: 1920px){
+    .video-grid{
+        grid-template-columns: 325px 325px 325px 325px 325px;
+    }
+    .video-title{
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .video-grid .author-name{
+        font-size: 15px;
+    }
+
+    .video-grid .video-stats{
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 1250px){
+    .video-grid{
+        grid-template-columns: 325px 325px 325px;
+    }
+}
+
+@media (max-width: 900px){
+    .video-grid{
+        grid-template-columns: 325px 325px;
+    }
+}
+
+@media(max-width: 520px){
+    .video-grid{
+        grid-template-columns: 325px;
+    }
+}
+
+@media(min-width: 2250px){
+    .video-grid{
+        grid-template-columns: 325px 325px 325px 325px 325px 325px;
+    }
+    .sidebar{
+        width: 300px;
+    }
+    .sidebar-link{
+        flex-direction: row;
+        padding-left: 30px;
+    }
+    .sidebar-icon{
+        width: 55px;
+        padding-bottom: -15px;
+    }
+    .sidebar-name{
+        font-size: 20px;
+        padding-left: 16px;
+    }
+    body{
+        padding-left: 320px;
+    }
+}
+
 
 .video-preview{
     position: relative;
